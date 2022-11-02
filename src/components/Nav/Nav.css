@@ -1,0 +1,29 @@
+.nav{
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-container{
+    display: flex;
+    /* flex-direction: row; */
+}
+.nav > nav > ul{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.nav > nav > ul > li{
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 0 20px;
+}
+.text h3{
+    font-weight: 400;
+    line-height: 30.26px;
+    font-size: 25px;
+    margin: 2px;
+}

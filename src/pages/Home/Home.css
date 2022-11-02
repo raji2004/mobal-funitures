@@ -1,0 +1,74 @@
+.flex {
+  display: flex;
+}
+.spacebetween {
+  justify-content: space-between;
+}
+.row {
+  flex-direction: row;
+}
+.column {
+  flex-direction: column;
+}
+.padding {
+  padding: 40px 100px;
+}
+.h4 h4 {
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 67px;
+  margin: 0;
+}
+.p p {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.btn {
+  width: 153px;
+  height: 46px;
+  background: #006732;
+  border-radius: 7px;
+  border: none;
+  color: white;
+}
+.img{
+    animation: hover infinite 3s ease-in-out;
+}
+@keyframes hover {
+    0%{
+        transform: translateY(50px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(50px);
+    }
+    
+}
+
+.shadow{
+    background: rgba(82, 82, 82, 0.44);
+    /* filter: blur(2px); */
+    width: 300px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    right: 270px;
+    bottom: 200px;
+    animation: expand infinite 3s ease-in-out;
+}
+@keyframes expand {
+    0%{
+        transform: scaleX(1);
+    }
+    50%{
+        transform: scaleX(1.5);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+    
+}
