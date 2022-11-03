@@ -8,6 +8,7 @@ function App() {
 
   return (
     <div className="App">
+      
       <Home />
 
        <img src={reactLogo} className={'size'} alt="" />

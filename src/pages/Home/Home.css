@@ -1,6 +1,11 @@
 .flex {
   display: flex;
 }
+.max-width{
+  max-width: 1260px;
+  width:100%;
+ margin: 0 auto;
+}
 .spacebetween {
   justify-content: space-between;
 }
@@ -40,6 +45,7 @@
   background-color: #05562c;
 }
 .img {
+  margin-top: -30px;
   animation: hover infinite 3s ease-in-out;
 }
 @keyframes hover {
@@ -47,7 +53,7 @@
     transform: translateY(50px);
   }
   50% {
-    transform: translateY(10px);
+    transform: translateY(0px);
   }
   100% {
     transform: translateY(50px);
@@ -60,9 +66,10 @@
   width: 300px;
   height: 30px;
   border-radius: 50%;
-  position: absolute;
-  right: 270px;
-  bottom: 200px;
+  margin-left: 150px;
+  /* position: relative;
+  right: -120px;
+  bottom: 20px; */
   animation: expand infinite 3s ease-in-out;
 }
 @keyframes expand {
@@ -109,7 +116,7 @@ ul > li {
  overflow: scroll;
  width: 1150px;
  margin-left: 100px;
- margin-top: -70px;
+ margin-top: -10px;
 } 
 .container {
   margin-top: -25px;
