@@ -4,8 +4,8 @@
   font-style: normal;
 }
 body{
-  overflow: hidden;
-}
+  overflow-x: hidden;
+} 
 .app{
  max-width: 1300px;
  width:100%;
@@ -16,6 +16,9 @@ body{
   height: 100%;
   position: absolute;
   
-  top: 100px;
+  top: 120px;
   z-index: -20;
+}
+::-webkit-scrollbar {
+  display: none;
 }

@@ -13,6 +13,9 @@
 .padding {
   padding: 40px 100px;
 }
+.paddin {
+  padding: 0px 100px;
+}
 .h4 h4 {
   font-weight: 600;
   font-size: 55px;
@@ -33,42 +36,88 @@
   border: none;
   color: white;
 }
-.img{
-    animation: hover infinite 3s ease-in-out;
+.btn:hover {
+  background-color: #05562c;
+}
+.img {
+  animation: hover infinite 3s ease-in-out;
 }
 @keyframes hover {
-    0%{
-        transform: translateY(50px);
-    }
-    50%{
-        transform: translateY(10px);
-    }
-    100%{
-        transform: translateY(50px);
-    }
-    
+  0% {
+    transform: translateY(50px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(50px);
+  }
 }
 
-.shadow{
-    background: rgba(82, 82, 82, 0.44);
-    /* filter: blur(2px); */
-    width: 300px;
-    height: 30px;
-    border-radius: 50%;
-    position: absolute;
-    right: 270px;
-    bottom: 200px;
-    animation: expand infinite 3s ease-in-out;
+.shadow {
+  background: rgba(82, 82, 82, 0.44);
+  /* filter: blur(2px); */
+  width: 300px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  right: 270px;
+  bottom: 200px;
+  animation: expand infinite 3s ease-in-out;
 }
 @keyframes expand {
-    0%{
-        transform: scaleX(1);
-    }
-    50%{
-        transform: scaleX(1.5);
-    }
-    100%{
-        transform: scaleX(1);
-    }
-    
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(1.5);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+.flexend {
+  align-items: flex-end;
+}
+
+.img-div {
+  width: 317px;
+  height: 231px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5px 20px;
+}
+.green {
+  width: 70px;
+  height: 26px;
+  padding: 0px 5px;
+  border-radius: 4px;
+  background-color: #006732;
+}
+.zero p {
+  margin: 5px;
+}
+.zero {
+  margin: 0;
+}
+ul > li {
+  list-style: none;
+}
+.flex > ul {
+  padding: 0;
+}.scroll{
+ overflow: scroll;
+ width: 1150px;
+ margin-left: 100px;
+ margin-top: -70px;
+} 
+.container {
+  margin-top: -25px;
+}
+.spacearound {
+  justify-content: space-around;
+}
+.container{
+  margin-left: 40px;
+  margin-top: 20px;
 }
